@@ -46,13 +46,20 @@
 
   <!-- Table created from table.html created in cities_python.ipynb -->
   <div class="container">
-    <div class="row" style="padding: 20px">
-      <p>The following table contains the type of data set used to model the visualizations contained in this website.</p>
+    <div class="jumbotron">
+      <h2 class="font-weight-bold">The Data</h2>
+      <h4>
+        What makes up the plot points on these visuals and how did we find it?
+      </h4>
+      <div class="row" style="padding: 20px">
+        <p>
+          The following table contains our raw data. How did it come to be? By generating a random list of latitude and longitude coordinates in Python using the Open Weather API, then saving their city name and the other measurements you see below, and finally capturing all of it in a dataframe. To investigate the findings of this study in greater detail, go to the "Comparisons" page to see what our plots revealed regarding latitude and it's correlation with these temperatures, cloudiness, wind speed, and humidity.
+        </p>
+      </div>
     </div>
 
-
     <div class="row">
-      <div class="col" style="padding: 20px">  
+      <div class="col" style="padding: 10px">  
         <table border="1" class="dataframe">
           <thead>
             <tr style="text-align: center;">
@@ -5682,6 +5689,13 @@
       </div>
     </div>
   </div>
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
 
 </body>
 </html>

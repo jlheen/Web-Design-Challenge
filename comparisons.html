@@ -41,7 +41,12 @@
     <div class="container">
         <div class="jumbotron">
           <h2 class="font-weight-bold">Comparison: Latitude v. X</h2>
-          <h6>Click any plot title to get an in-depth analysis.</h6>
+          <h4>
+            How did we create these visuals and what do they mean?
+          </h4>
+          <p>
+            You can read more about how the data was generated in the "Data" page, but once it was collected and in a dataframe, these plots were generated through Python's Matplotlib library. Our first big question is answered in the "Latitude v. Max Temperature" graph: if a city is closer to the equator, then is it's max temperature higher? Looking closely for the x = 0 indicator (in this and all our graphs, the equator), will show most of the highest temperatures, which then fall on either side as the city's latitudes increase and their distance from the equator grows. So, in short: yes. What do our other graphs tell us? Click on each one for a more in-depth analysis. And what do all the graphs combined show? When only given latitude and these measurements, there is little else that is conclusive with a randomly generated set of coordinates. Temperature is closely correlated with latitude, but humidity, cloudiness, and wind speed show much more variability. Wind speed, perhaps, shows that few cities get recorded wind speeds higher than 25 miles per hour. As a group, these visuals indicate that a closer analysis of the dataset and an incorporation of other pertinent information is needed to investigate causation for observed patterns. For example, a question for further analysis would be: what are the cities that measured over 25 mph wind speed? Were there any similarities in other recorded measurements that might nod to some cause for the high winds? For now, we will only wonder, but feel free to click on each image to find out more about what we do know.
+          </p>
         </div>
     </div>
 
@@ -87,7 +92,7 @@
       </div>
     </div>
 
-    <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

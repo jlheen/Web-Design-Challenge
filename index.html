@@ -7,9 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Style sheet reference -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>Bootstrap + HTML + CSS Project</title>
   </head>
   <body>
 
@@ -46,19 +47,60 @@
 <!-- Page's Title -->
 <div class="container">
   <div class="jumbotron">
-    <h3 class="font-weight-bold">Project Summary</h3>
+    <h2 class="font-weight-bold">Project Summary</h2>
   </div>
 </div>
 
 <!-- Responsive Data Graph Images -->
   <div class="container">
   <!-- Row 1 -->
-    <div class="row">
-        <div class="col-12">This website showcases four different plots of latitude against ...</div>
+    <div class="row" style="padding-bottom: 40px;">
+        <div class="col-12">
+          <p>Welcome! This site shows some initial data exploration visuals and accompanying analysis centering around the question: are cities near the equator actually hotter? What other observable weather patterns might there between cities when considering their latitude?</p>
+          <h6>Site Directory:</h6> <p>To get an initial understanding of the data itself, use the "Data" tab in the upper right corner to see the full table of cities. To see the weather data that was generated, below are four individual links to the specific visuals and a general analysis of each; these can also be found in the dropdown "Plots" menu in the navigation pane. For more information on how the data itself was generated and what it means, head over to the "Comparisons" page using the navigation bar.</p>
+        </div>
     </div>
+
+  <!-- Four graph visuals with links -->
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="col-md-3">
+        <div class="rounded float-left">
+          <a href="viz_1.html">
+          <p class="font-weight-bold">Latitude v. Max Temperature</p>
+          <img src="Resources/assets/images/Fig1.png" class="img-fluid" alt="Responsive image" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="rounded float-right">
+          <a href="viz_2.html">
+          <p class="font-weight-bold">Latitude v. Humidity</p>
+          <img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="Responsive image" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="rounded float-left">
+          <a href="viz_3.html">
+          <p class="font-weight-bold">Latitude v. Cloudiness</p>
+          <img src="Resources/assets/images/Fig3.png" class="img-fluid" alt="Responsive image" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="rounded float-right">
+          <a href="viz_4.html">
+          <p class="font-weight-bold">Latitude v. Wind Speed</p>
+          <img src="Resources/assets/images/Fig4.png" class="img-fluid" alt="Responsive image" style="width:100%">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
