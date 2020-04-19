@@ -35,26 +35,27 @@
         </li>
       </ul>
     </nav>
+ 
 
 <body>
   <div class="container">
     <div class="row">
       <div class="col" style="padding: 30px">
-        <div class="rounded mx-auto d-block">        
+        <div class="rounded mx-auto d-block">  
           <p class="font-weight-bold">Latitude v. Max Temperature</p>
           <div class="col" style="padding-left: 0px;  padding-right: 0px;">
-          <img src="Resources/assets/images/Fig1.png" class="img-responsive">
+          <img src="Resources/assets/images/Fig1.png" class="img-fluid">
           <!-- code for image size: https://stackoverflow.com/questions/16466240/adjusting-and-image-size-to-fit-a-div-bootstrap -->
+          </div>
         </div>
       </div>
     </div>
-    </div>
-      <div class="row justify-content-md-center">
-        <div class="col" style="padding-bottom: 50px">
-          I'm content inside the grid!
-        </div>
+    <div class="row justify-content-md-center">
+      <div class="col-10" style="padding-bottom: 50px">
+          Like many experiments in data science, finding one answer often leads to three new questions. This graph show the relationship between a city's latitude (x) and it's recorded maximum temperatures (y). X goes from -80 to positive 100 because the cities are both below the equator, giving them a negative latitude and above the equator. Both groups of cities follow a correlation that as the latitude increases, the max temperature decreases. The interesting differences on either side of zero is the sheer amount of cities on the right of the graph compared to the left. These are the sorts of questions that would motivate and guide further study: are there more cities in the world above the equator than below it? How many cities lie above 60 degrees latitude and below -60 latitude?
       </div>
     </div>
+</div>
   </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
